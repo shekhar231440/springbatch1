@@ -28,7 +28,7 @@ public class SpringBatchUnitTest {
 	@Autowired
 	JdbcTemplate jdbcTemplate;
 
-	@Test
+	/*@Test
 	public void testLaunchJob() throws Exception {
 
 		// test a complete job
@@ -45,5 +45,5 @@ public class SpringBatchUnitTest {
 		JobExecution jobExecution = jobLauncherTestUtils.launchStep("step1");
 
 		assertEquals(BatchStatus.COMPLETED, jobExecution.getStatus());
-	}
+	}*/
 }
