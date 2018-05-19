@@ -35,7 +35,7 @@ public class SpringBatchUnitTest {
 		//JobExecution jobExecution = jobLauncherTestUtils.launchJob();
 
 		//assertEquals(BatchStatus.COMPLETED, jobExecution.getStatus());
-   	       assertEquals(true);
+   	       assertEquals("1", "1");
 	}
 
 	@Test
@@ -45,6 +45,6 @@ public class SpringBatchUnitTest {
 		//JobExecution jobExecution = jobLauncherTestUtils.launchStep("step1");
 
 		//assertEquals(BatchStatus.COMPLETED, jobExecution.getStatus());
-		assertEquals(true);
+	        assertEquals("1", "1");
 	}
 }
